@@ -19,7 +19,7 @@ Download NodeJS and MongoDB if they're not yet downloaded and installed.
 
 1 - git clone https://github.com/ElishaKay/Social-Network-Site-built-with-JavaScript.git 
 
-2 -npm install 
+2 - npm install 
 
 3 - node server.js (or) nodemon server.js 
 
