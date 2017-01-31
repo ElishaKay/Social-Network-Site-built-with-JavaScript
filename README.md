@@ -11,16 +11,25 @@ The app is built with the following technologies:
 And many more...
 
 
-Instructions for installing the app on local computer<br> 1 - git clone https://github.com/ElishaKay/Social-Network-Site-built-with-JavaScript.git 
+Instructions for installing the app on local computer<br>
 
-2 -npm install
+1 - git clone https://github.com/ElishaKay/Social-Network-Site-built-with-JavaScript.git 
+<br>
+<br>
+2 -npm install 
+<br>
+<br>
 3 -
 
 
 <h1>Service and Controllers<h1>
 
 <p> 
-The project contains the logic and Server-Side code based on another app called "the Beer App".<br>
-This is a good example of how AngularJS code can easily be moved from project to project due to its "Seperation of Concerns" architecture.<br>
-You can <a href="http://movie-holics.com/blog/mongoisland/index.html"> read more about the Service and Controllers here.</a>
+The project contains the logic and Server-Side code based on another app called "the Beer App"</p>.
+
+<p>This is a good example of how AngularJS code can easily be moved from project to project due to its "Seperation of Concerns" architecture.</p>
+<br>
+<p>You can <a href="http://movie-holics.com/blog/mongoisland/index.html"> read more about the Service and Controllers here.</a>
 </p> 
+
+
