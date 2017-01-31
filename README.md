@@ -35,13 +35,13 @@ The project contains the logic and Server-Side code based on another app called 
 
 This is a good example of how AngularJS code can easily be moved from project to project due to its "Seperation of Concerns" architecture.
 
-You can <a href="http://movie-holics.com/blog/mongoisland/index.html"> read more about the Service and Controllers here.</a>
+You can <a href="http://movie-holics.com/blog/mongoisland/index.html" target="_blank"> read more about the Service and Controllers here.</a>
  
 That pretty much summarizes most of the main Social Network features.
 
 We will also be covering how to deploy the App to Heroku, and how to install the MongoDB in the cloud (all with free hosting and DB services).
 
-The Meetup where we will be coding this app live will take place in Tel Aviv University, February 7th, 2017, at 7:30PM.
+The Meetup where we will be coding this app live will take place in Tel Aviv University, February 7th, 2017, at 7:00PM.
 
 Thanks and enjoy 🤠
 
