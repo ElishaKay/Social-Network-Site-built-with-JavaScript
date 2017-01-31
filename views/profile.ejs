@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Amp It Up">
+  <meta name="keywords" content="Digital Marketing, Blog, Social Media, Online Advertising, Digital Marketing Agency, Jerusalem, Tel Aviv, Israel, Elisha Kramer">
+  <meta name="author" content="Elisha Kramer">
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-89533787-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+  <meta name="google-site-verification" content="mXE5fXklRR6u_hpkMSsxaX43Uhs7eEN1g0MivpVumRA" />
+  
+  <title>Amp It Up</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../style.css">
+
+  <!-- Custom Fonts -->
+  <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet">
+
+
+  <!-- Theme CSS -->
+  <link href="../css/agency.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+      </head>
+
+      <body ng-app="Amp" background-color="#222222" id="page-top" class="index">
+
+        <script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              appId      : '1886152074941466',
+              xfbml      : true,
+              version    : 'v2.8'
+            });
+          };
+
+          (function(d, s, id){
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) {return;}
+             js = d.createElement(s); js.id = id;
+             js.src = "//connect.facebook.net/en_US/sdk.js";
+             fjs.parentNode.insertBefore(js, fjs);
+           }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+
+        <!-- Navigation -->
+        <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+              </button>
+              <a class="navbar-brand page-scroll" href="index.html">Amp It Up</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right text-color">
+                <li class="hidden">
+                  <a href="#page-top"></a>
+                </li>
+                <li><b>
+                  <a class="page-scroll" href="#portfolioModal3" class="portfolio-link" data-toggle="modal">Getting Started</b></a>
+                </li>
+                <li>
+                  <a class="page-scroll" href="#team"><b>Community Forum</b></a>
+                </li>
+                <li>
+                  <a href="../articles.html#!/home"><b>Logout</b></a>
+                </li>
+                     
+                </p>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container-fluid -->
+        </nav>
+
+
+
+          <!-- FACEBOOK INFORMATION -->
+          <div class="col-sm-6">
+            <div class="well">
+              <p>
+                <img src=<%= user.photos[0].value %> alt="">
+                <br>
+                <h2>Hey there <%= user.displayName %>!!</h2> 
+                <p>and welcome to Amp It Up! It's our pleasure to serve as your community forum for articles and memes. Share some wisdom with the crowd, and check out latest articles.
+                </p>
+                  <br>
+              </p>
+            </div>
+
+
+
+        </div>
+
+          <div ui-view></div> 
+
+
+       
+
+
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+
+
+<!-- Team Section -->
+<div>
+  <div class="row">
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+  </div>
+
+
+  <!-- Introducing the Community Forum here. You may
+  want to add an id so that you can navigate here straight from the
+  HomePage Menu   -->
+ 
+  <div>
+    <br>
+  <div class="jumbotron text-center">
+    <h2>Community Forum</h2>
+  </div>
+
+  <br>
+  <br>
+</div>
+
+
+    <div ng-controller="MainCtrl">
+
+
+
+      <div id="team" class="row">
+
+        <div class="col-sm-1">
+        </div>
+
+
+        <div class="col-sm-2">
+
+        <h2 class="addarticlesheader">Add a new post</h2>
+
+        </div>
+
+          <div class="col-sm-6">
+
+
+              <form ng-submit="addBeer()">
+                        
+
+                        <div class="form-group">
+                          <input type="text" class="form-control submissionfield" placeholder="Title" ng-model="name" required></input>
+                        </div>
+
+
+                        <div class="form-group">
+                          <input align="left" type="text" class="form-control submissionfieldcomment" placeholder="Comment" ng-model="style" required></input>
+                        </div>
+
+                        <div class="form-group">
+                          <input type="text" class="form-control submissionfield" placeholder="Your Name" ng-model="abv" required></input>
+                        </div>
+
+                        <div class="form-group">
+                          <input type="text" class="form-control submissionfield" placeholder="Image URL" ng-model="image" required></input>
+                        </div>
+
+
+                        <br>
+                        <br>
+
+                      </div class="col-md-3">
+
+                       <button type="submit" class="page-scroll btn btn-xl">Add</button>
+                      </form>
+                </div>
+
+
+                 
+
+
+        <div class="col-md-6 col-md-offset-3">
+                
+               <div ng-repeat='list in beerArray.slice().reverse() track by $index'>
+            <div class="panel panel-default">
+            
+              <a class="panel-heading" ui-sref='beer({id: list._id})'>
+                {{list.name}}</a>
+              <div class="panel-body" ui-sref='beer({id: list._id})'>
+                {{list.style}}
+                <br>
+              </div>
+              <div>
+              <img ui-sref='beer({id: list._id})' class="image-beer" ng-src="{{list.image}}">
+              </div>
+              
+              Post By: {{list.abv}}
+              <br>
+              <br>
+
+              Rating: {{list.rating}} 
+
+              <button ng-click='increment($index)'>Increase Rating</button>
+
+<!-- 
+If you want to allow users to delete specific memes - unlikely
+I think at this point, it would be wiser to just delete
+any unwanted posts through your db in heroku - research -->
+             <!--  <button ng-click='removeBeer($index)'>
+                <i class="fa fa-trash" aria-hidden="true"></i>
+              </button>
+ -->
+            </div>
+          </div>
+
+
+          <!-- Input form for new blog post -->
+
+            <br>
+         
+             <!--  <div class="page-header">
+              </div> -->
+
+              <!-- render beers here -->
+      
+
+        <br>
+        <br>
+
+      </div>
+   
+
+<div id="newpost">
+
+</div>
+        <!-- <div ui-view></div> -->
+
+
+
+    <div class="row">
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="team-member">
+
+          <a href="https://il.linkedin.com/in/elishakramer" target="_blank" class="page-scroll btn btn-xl">LinkedIn Page</a>
+
+          <br>
+          <br>
+
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="col-md-4 col-sm-6 portfolio-item">
+      <div class="team-member">
+
+        <a href="https://www.facebook.com/Alephmarketingpros/" target="_blank" class="page-scroll btn btn-xl">Facebook Page</a>
+
+        <br>
+        <br>
+
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="col-md-4 col-sm-6 portfolio-item">
+    <div class="team-member">
+
+     <a href="https://github.com/ElishaKay" target="_blank" class="page-scroll btn btn-xl">GitHub Page</a>
+
+     <br>
+     <br>
+
+   </div>
+ </div>
+
+
+ <!-- Contact Section -->
+ <section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Stay in touch ✌️</h2>
+
+
+
+        <h3 class="section-subheading text-muted">Feel free to send me an email anytime at: <a href="mailto:kramer1346@gmail.com">Kramer1346@Gmail.Com</a></h3>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; Amp It Up 2016</span>
+          </div>
+
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li><a href="#">Privacy Policy</a>
+              </li>
+              <li><a href="#">Terms of Use</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+       <!-- Portfolio Modal 3 -->
+       <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+           <div class="modal-dialog">
+               <div class="modal-content">
+                   <div class="close-modal" data-dismiss="modal">
+                       <div class="lr">
+                           <div class="rl">
+                           </div>
+                       </div>
+                   </div>
+                   <div class="container">
+                       <div class="row">
+                           <div class="col-lg-8 col-lg-offset-2">
+                               <div class="modal-body">
+                                   <!-- Project Details Go Here -->
+                                   <h2></h2>
+                                   
+
+                                   <h3>Welcome, Muchacho!</h3>
+                                   <br>
+                <div align="left">             
+        <p>If you're reading this, then it's official. You've happened to stumble upon one of the internet's best kept secrets.</p>
+
+        <p>At Amp It App, we believe that users should be able to comfortably browse articles and memes. </p>
+
+        <p>Go ahead and add a post to the Community Forum.</p>
+
+        <p>Or, click on the title of any post, and leave some comments.</p>
+
+      </div>
+
+      <!-- Sign in with facebook -->
+
+   
+    <!-- Uncomment if you want to allow user to close the user authentication pop-up -->                               
+       
+<!--        <p>Sign up to Amp It App to explore, create, and discuss hot topics with the digital community.</p>
+
+ -->
+
+       <button type="button" class="btn btn-primary" data-dismiss="modal">Cool, thanks man!
+        <br>
+        Well, See you later :)
+       </button>
+    
+
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+
+
+<!-- Dependencies for allowing users to post articles -->
+
+
+   <script src="../vendor/angular/angular.js"></script>
+   <script src="../vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
+    
+    <script src="../app.js"></script>
+    <script src="../js/services/beers.js"></script>
+    <script src="../js/controllers/mainController.js"></script>
+    <script src="../js/controllers/beersController.js"></script>
+
+
+
+    <!-- Dependencies for Amp It Up Site-->
+
+
+   
+
+    <!-- jQuery -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="../js/jqBootstrapValidation.js"></script>
+    <script src="../js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="../js/agency.min.js"></script>
+
+  </body>
+  </html>

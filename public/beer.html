@@ -1,0 +1,78 @@
+
+<br>
+<br>
+<br>
+<br>
+
+<div id="page-header">
+
+  <div>
+
+
+  
+    <div class="jumbotron text-center">
+      <h2><span>{{beer.name}}</span></h2>
+      <p><strong>
+        {{beer.style}}
+      </p></strong>
+    </div>
+
+
+
+
+<!-- 
+  Looping through the reviews associated with this post,
+  and rendering the reviews array unto the page -->
+
+    <span>{{beer.review}}</span>
+
+    <img class="image-beer" src="{{beer.image}}">
+
+    <hr>
+      <h1 class="reviewsheader">Reviews</h1>
+      <div class="jumbotron text-center" ng-repeat="review in beer.reviews">
+       
+        <br>
+        <br>
+        <h4>{{review.name}}</h4>
+        <p><strong>{{review.text}}</strong></p>
+
+        <p></p>
+      </div>
+    </hr>
+
+<br>
+<br>
+
+
+
+
+<h1 class="reviewsheader">Add A Review</h1>
+
+<br>
+<br>
+
+<div class="row">
+
+  <div class="col-sm-8">
+
+    <input type="text" class="submissionfieldreview" placeholder="Add a review" ng-model="reviewText">
+
+  </div>
+
+
+
+  <div class="col-sm-4">
+
+    <button type="submit" class="page-scroll btn btn-xl" ng-click="addReview()">Post</button>
+
+
+  </div>
+
+  
+
+</div>
+
+  
+  </div>
+</div>

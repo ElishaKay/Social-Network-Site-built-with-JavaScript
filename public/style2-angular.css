@@ -1,0 +1,379 @@
+/*Snow animation*/
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.fbbutton { 
+  border:1px solid #1D3871; 
+  width:94px; 
+  background-image:-webkit-linear-gradient(top, #637BAD, #4F67A4); 
+  font-size:14px; 
+  line-height:25px; 
+  font-weight:normal; 
+  color:#fec503; }
+
+.blogheadings {
+    font-size: 40px;
+}
+
+
+
+.text-color li a {
+    color: blue;
+}
+
+
+.SocialChannelsTest {
+  color: #3B5999;
+}
+
+
+
+/*This is the css from the Movie app from Elevation*/
+
+body{
+  margin: 2%;
+  background-color: #bdc3c7
+}
+
+#psuedoNav{
+  position: relative;
+  background-color: #e74c3c;
+  padding: 1%;
+  width: 100%;
+}
+h2{
+  font-family: Garamond, serif; 
+}
+#remainingBudget{
+  position: absolute;
+  font-family: Garamond, serif;
+  top: 1%;
+  right: 1%;
+}
+
+.form-group{
+  width: 100%;
+  } 
+.form-control{
+  width: 25%;
+  display: inline-block;
+}
+
+.form-group i{
+  margin-left: 5%;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+#emptyCollectionContainer, #outOfBudgetContainer{
+  color: #ecf0f1;
+  text-align: center;
+  padding: 5%;  
+}
+
+#emptyCollectionContainer h3{
+  display: inline-block;
+}
+
+#myCollectionContainer{
+  overflow: hidden;
+}
+
+.movie{
+  background-color: #ecf0f1;
+  width: 30%;
+  margin: 1%;
+  float: left;
+  max-height: 500px;
+  box-shadow: 2px 2px 2px #e3e3e3;
+} 
+.allMovies{
+  cursor: pointer;
+}
+.movieImg, .movieDescr{
+  padding: 2%;
+}
+.movieImg{
+  width: 100%;
+}
+img{
+  width: 100%;
+}
+
+.removeButton{
+  text-align: center;
+  margin-bottom: -10%;
+}
+.removeButton a{
+  color: #e74c3c;
+}
+
+
+
+/*This code below is meant to Create 3 columns per row:
+*/
+
+
+
+.angular-input {
+  align: center;
+}
+
+
+@media (max-width: 466px) {
+  .team-member {
+    width: 100% !important;
+  }
+}
+
+.portfolio-box .portfolio-box-caption{-webkit-transition:all .35s;-moz-transition:all .35s}
+
+@media (max-width: 700px) {
+    .timeline-image
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .timeline-panel
+    {
+    width: 100%; 
+    }
+}
+
+
+
+/*copied from Secret TLV*/
+
+
+span {
+
+  color: brown;
+}
+
+body {
+  margin: 0;
+  background-color: #ddd;
+}
+
+nav ul {
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+  background-color: #333333;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   height: 50px;
+}
+
+nav li a { 
+  line-height: 50px;
+  text-decoration: none;
+  color: #999;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 18px;
+}
+
+.hero-image {
+    margin-top: 50px;
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.hero {
+  background: url(http://www.elevationacademy.co/wp-content/uploads/2016/02/Tel-Aviv.jpg) no-repeat center fixed;
+  background-size: cover;
+  height: 700px;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Open Sans';
+  text-align: center;
+  font-weight: bold;
+  padding: 25px;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+section {
+  background-color: #ddd;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+}
+
+.food img {
+  width: 100%;
+  padding: 20px;
+}
+
+.column-inner {
+  padding: 20px;
+}
+
+@media (max-width: 700px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.column-70 {
+  width: 70%;
+  float: left;
+  height: 500px;
+ 
+}
+
+.column-30 {
+  width: 30%;
+  float: left;
+  height: 500px;
+}
+
+.column-30 h1{
+  font-family: 'Merriweather';
+  
+}
+
+.row:before {
+  display: table;
+  content: "";
+}
+
+.row:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.animated-class{
+  &.ng-enter {
+    -webkit-animation: bounceIn 1s;
+    -moz-animation: bounceIn 1s;
+    -ms-animation: bounceIn 1s;
+    animation: bounceIn 1s;
+}
+
+  &.ng-leave {
+    -webkit-animation: bounceOut 1s;
+    -moz-animation: bounceOut 1s;
+    -ms-animation: bounceOut 1s;
+    animation: bounceOut 1s;
+  }
+}
+
+
+.thefilm .favorite { 
+  float:right 
+}
+
+
+.column-inner {
+  padding: 20px;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+}
+
+.column img {
+  max-width:100%;
+  max-height:100%;
+}
+
+header {
+  background-repeat: none;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.intro-text {
+  padding-top: 300px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.intro-lead-in {
+  font-family: "Droid Serif", "Helvetica Neue", sans-serif;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.intro-heading {
+  color: black;
+  font-family: "Montserrat", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 75px;
+  margin-bottom: 50px;
+}
+
+.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+section {
+  padding: 150px 0;
+}
+
+.Bookinfotext {
+  font-size: 35px;
+  color: #E67255;
+  font-family: "Droid Serif", "Helvetica Neue", sans-serif;
+}
+
+.Bookicon {
+  font-size: 50px;
+  color: #E67255;
+}
+
+.fieldstext {
+  font-size: 25px;
+  color: #E68000;
+  font-family: "Droid Serif", "Helvetica Neue", sans-serif;
+}
+
+
+
+.section-subheading {
+  font-size: 16px;
+  font-family: "Droid Serif", "Helvetica Neue", sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 75px;
+}

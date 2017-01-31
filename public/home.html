@@ -1,0 +1,59 @@
+
+      
+     <div ng-repeat='list in beerArray track by $index'>
+  <div class="panel panel-default">
+  
+    <a class="panel-heading" ui-sref='beer({id: list._id})'>Name: {{list.name}}</a>
+    <div class="panel-body">
+      Style: {{list.style}}
+      ABV: {{list.abv}}
+    </div>
+    <div>
+    Image: <img class="image-beer" ng-src="{{list.image}}">
+    </div>
+      Rating: {{list.rating}} 
+
+    <button ng-click='increment($index)'>Increase Rating</button>
+
+    <button ng-click='removeBeer($index)'>
+      <i class="fa fa-trash" aria-hidden="true"></i>
+    </button>
+
+  </div>
+</div>
+
+
+    
+
+
+
+      <div class="page-header">
+      </div>
+
+      <!-- render beers here -->
+
+      <form ng-submit="addBeer()">
+        <h3>Add a new beer</h3>
+
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Beer Name" ng-model="name"></input>
+        </div>
+
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Style" ng-model="style"></input>
+        </div>
+
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="ABV" ng-model="abv"></input>
+        </div>
+
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Image URL" ng-model="image"></input>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Add</button>
+      </form>
+    </div>
+  </div>
+
+
