@@ -13,28 +13,26 @@ The app is built with the following technologies:
 And many more...
 
 
-Instructions for installing the app on local computer<br>
+Instructions for installing the app on local computer:
 
 Download NodeJS and MongoDB if they're not yet downloaded and installed.
 
 1 - git clone https://github.com/ElishaKay/Social-Network-Site-built-with-JavaScript.git 
-<br>
-<br>
+
 2 -npm install 
-<br>
-<br>
+
 3 - node server.js (or) nodemon server.js 
-<br>
+
 4 - navigate to "localhost:8000" in your browser
 
 Service and Controllers:
 
-The project contains the logic and Server-Side code based on another app called "the Beer App"</p>.
+The project contains the logic and Server-Side code based on another app called "the Beer App".
 
-<p>This is a good example of how AngularJS code can easily be moved from project to project due to its "Seperation of Concerns" architecture.</p>
-<br>
-<p>You can <a href="http://movie-holics.com/blog/mongoisland/index.html"> read more about the Service and Controllers here.</a>
-</p> 
+This is a good example of how AngularJS code can easily be moved from project to project due to its "Seperation of Concerns" architecture.
+
+You can <a href="http://movie-holics.com/blog/mongoisland/index.html"> read more about the Service and Controllers here.</a>
+ 
 The pretty much summarizes most of the main Social Network features.
 
 We will also be covering how to deploy the App to Heroku, and how to install the MongoDB in the cloud (all with free hosting and DB services).
