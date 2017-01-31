@@ -11,7 +11,12 @@ The app is built with the following technologies:
 And many more...
 
 
-Instructions for installing the app on local computer<br> 1 - git clone
+Instructions for installing the app on local computer<br> 1 - git clone https://github.com/ElishaKay/Social-Network-Site-built-with-JavaScript.git 
+
+2 -npm install
+3 -
+
+
 <h1>Service and Controllers<h1>
 
 <p> 
