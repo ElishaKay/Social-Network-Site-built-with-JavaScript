@@ -22,7 +22,7 @@ Instructions for installing the app on local computer<br>
 3 -
 
 
-<h1>Service and Controllers<h1>
+Service and Controllers
 
 <p> 
 The project contains the logic and Server-Side code based on another app called "the Beer App"</p>.
