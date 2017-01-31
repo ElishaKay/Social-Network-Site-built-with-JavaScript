@@ -19,10 +19,10 @@ Instructions for installing the app on local computer<br>
 2 -npm install 
 <br>
 <br>
-3 -
+3 - node server.js (or) nodemon server.js 
 
 
-Service and Controllers
+<strong>Service and Controllers<strong>
 
 <p> 
 The project contains the logic and Server-Side code based on another app called "the Beer App"</p>.
