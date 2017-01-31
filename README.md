@@ -10,6 +10,8 @@ The app is built with the following technologies:
 4 - Mongoose<br>
 And many more...
 
+
+Instructions for installing the app on local computer<br> 1 - git clone
 <h1>Service and Controllers<h1>
 
 <p> 
