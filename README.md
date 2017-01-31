@@ -27,7 +27,7 @@ Download NodeJS and MongoDB if they're not yet downloaded and installed.
 
 Here's another Screenshot in case you wanted to see what it looks like when you click on a post:
 
-<img src="tony.PNG">
+<img src="monkey.PNG">
 
 Service and Controllers:
 
