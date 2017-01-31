@@ -25,6 +25,10 @@ Download NodeJS and MongoDB if they're not yet downloaded and installed.
 
 4 - navigate to "localhost:8000" in your browser
 
+Here's another Screenshot in case you wanted to see what it looks like when you click on a post:
+
+<img src="tony.PNG">
+
 Service and Controllers:
 
 The project contains the logic and Server-Side code based on another app called "the Beer App".
@@ -33,7 +37,7 @@ This is a good example of how AngularJS code can easily be moved from project to
 
 You can <a href="http://movie-holics.com/blog/mongoisland/index.html"> read more about the Service and Controllers here.</a>
  
-The pretty much summarizes most of the main Social Network features.
+That pretty much summarizes most of the main Social Network features.
 
 We will also be covering how to deploy the App to Heroku, and how to install the MongoDB in the cloud (all with free hosting and DB services).
 
