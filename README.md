@@ -22,7 +22,7 @@ Instructions for installing the app on local computer<br>
 3 - node server.js (or) nodemon server.js 
 
 
-<strong>Service and Controllers<strong>
+Service and Controllers:
 
 <p> 
 The project contains the logic and Server-Side code based on another app called "the Beer App"</p>.
@@ -31,5 +31,7 @@ The project contains the logic and Server-Side code based on another app called 
 <br>
 <p>You can <a href="http://movie-holics.com/blog/mongoisland/index.html"> read more about the Service and Controllers here.</a>
 </p> 
+
+
 
 
