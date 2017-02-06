@@ -21,7 +21,7 @@ Download NodeJS and MongoDB if they're not yet downloaded and installed.
 
 2 - npm install 
 
-3 - npm install -g nodemon`.
+3 - npm install -g nodemon
 
 4 - nodemon server.js (or) nodemon server.js 
 
