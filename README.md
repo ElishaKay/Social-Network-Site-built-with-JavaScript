@@ -21,9 +21,11 @@ Download NodeJS and MongoDB if they're not yet downloaded and installed.
 
 2 - npm install 
 
-3 - node server.js (or) nodemon server.js 
+3 - npm install -g nodemon`.
 
-4 - navigate to "localhost:8000" in your browser
+4 - nodemon server.js (or) nodemon server.js 
+
+5 - navigate to "localhost:8000" in your browser
 
 Here's another Screenshot in case you wanted to see what it looks like when you click on a post:
 
