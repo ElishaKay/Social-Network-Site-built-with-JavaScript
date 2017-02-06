@@ -23,7 +23,7 @@ Download NodeJS and MongoDB if they're not yet downloaded and installed.
 
 3 - npm install -g nodemon
 
-4 - nodemon server.js (or) nodemon server.js 
+4 - nodemon server.js 
 
 5 - navigate to "localhost:8000" in your browser
 
