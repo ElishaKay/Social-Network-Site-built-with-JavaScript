@@ -33,6 +33,8 @@ Here's another Screenshot in case you wanted to see what it looks like when you 
 
 Service and Controllers:
 
+<img src="repo.PNG">
+
 The project contains the logic and Server-Side code based on another app called "the Beer App".
 
 This is a good example of how AngularJS code can easily be moved from project to project due to its "Seperation of Concerns" architecture.
